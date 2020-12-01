@@ -8,7 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
-    public function getPost(){
-        return Post::all();
+    public function user(){
+        return $this->belongsTo(User::class);
     }
+
 }

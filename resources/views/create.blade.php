@@ -4,7 +4,7 @@
 <body>
 <h2>Create your post</h2>
 
-<form action="POST" action="{{route('post.create')}}">
+<form action="{{route('post.create')}}">
     <label for="fname">Post title:</label><br>
     <input type="text" id="fname" name="fname" ><br>
     <br>
